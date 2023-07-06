@@ -98,7 +98,7 @@ Worked as a Frontend  developer at a product and outsource software development 
 - Created internationalization of e-commerce websites for several languages
 - Active project support during development and release period, included bug fixes and amendments
 
-##### Tecnical stack
+##### Technical stack
 
 TypeScript, React (Next.js), Node.js, Vue.js 3, Nuxt 3, TailwindCSS, Vite, Pinia
 
