@@ -6,9 +6,157 @@
     <link href="/dist/output.css" rel="stylesheet">
 </head>
 <body>
-<h1 class="text-3xl font-bold underline">
-    Hello world!
-</h1>
+<div>
+    <nav class="sticky text-text-white bg-primary px-4 py-2">
+        <ul class="flex items-center text-lg justify-end gap-5">
+            <li>
+                About me
+            </li>
+            <li>
+                Education
+            </li>
+            <li>
+                Experience
+            </li>
+            <li>
+                Skills
+            </li>
+        </ul>
+    </nav>
+    <div class="container mx-auto">
+        <header class="my-10 flex items-center py-5 justify-around">
+            <img class="rounded-full max-w-[20%]" src="/images/lizaveta-photo.jpg" alt="Lizaveta's photo">
+            <div class="">
+                <h1 class="text-2xl">
+                    LIZAVETA YALAK
+                </h1>
+                <h3 class="mt-5 text-xl">
+                    Junior frontend developer
+                </h3>
+            </div>
+        </header>
+        <hr/>
+        <main class="grid grid-cols-2 gap-10 py-8">
+            <div>
+                <div class="text-xl">
+                    Contacts
+                </div>
+                <ul class="mt-2">
+                    <li>
+                        Location - Gdansk, Poland
+                    </li>
+                    <li>
+                        Email - <a href="mailto: lizavetayalak2000@gmail.com"> lizavetayalak2000@gmail.com </a>
+                    </li>
+                    <li>
+                        Phone - <a href="tel:+48571-034-794">+48 571 034 794</a>
+                    </li>
+                    <li>
+                        LinkedIn - <a href="https://www.linkedin.com/in/lizaveta-yalak-a635b71ba/" target="_blank">https://www.linkedin.com/in/lizaveta-yalak-a635b71ba/</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <div class="text-xl">
+                    About me
+                </div>
+                <div class="mt-2">
+                    Frontend software developer, primarily working with Vue.js 3(and also Vue.js 2) with good
+                    understanding of design principles and digital assets for frontend development. I am creative,
+                    sociable, responsible and always ready to learn new technologies.
+                </div>
+            </div>
+            <hr/>
+            <hr/>
+            <div>
+                <div class="text-xl">
+                    Skills
+                </div>
+                <div class="flex gap-12 ">
+                    <div class="mt-3 text-lg">
+                        Development tools
+                        <ul class="mt-2 text-base">
+                            <li>
+                                TypeScript
+                            </li>
+                            <li>
+                                JavaScript
+                            </li>
+                            <li>
+                                Vue.js
+                            </li>
+                            <li>
+                                Nuxt.js
+                            </li>
+                            <li>
+                                Pinia
+                            </li>
+                            <li>
+                                Node.js
+                            </li>
+                            <li>
+                                PostgreSQL
+                            </li>
+                            <li>
+                                Firebase
+                            </li>
+                            <li>
+                                TailwindCSS
+                            </li>
+                            <li>
+                                Vite
+                            </li>
+                            <li>
+                                HTML5
+                            </li>
+                            <li>
+                                CSS3
+                            </li>
+                            <li>
+                                Git
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mt-3 text-lg">
+                        Design tools
+                        <ul class="mt-2 text-base">
+                            <li>
+                                Figma
+                            </li>
+                            <li>
+                                Miro
+                            </li>
+                            <li>
+                                Adobe Creative Suite (including Adobe Photoshop & Adobe Illustrator)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="text-xl">
+                Code example
+                <pre>
+                <code class="text-sm">
+                    function secondSymbol(s, symbol) {
+                        let counter = 0;
+                        for (let i = 0; i< s.length; i++){
+                            if (s[i] === symbol
+                               && counter ===0){
+                                counter += 1
+                            }
+                            else  if (s[i] === symbol
+                                && counter !== 0){
+                                return i;
+                            }
+                        }
+                        return -1;
+                    }
+                </code>
+            </pre>
+            </div>
+        </main>
+    </div>
+</div>
 
 </body>
 </html>
