@@ -7,26 +7,41 @@
 </head>
 <body>
 <div>
-    <nav class="sticky text-text-white bg-primary px-4 py-2">
+    <nav class="sticky text-text-white bg-primary px-4 py-5">
         <ul class="flex items-center text-lg justify-end gap-5">
             <li>
-                About me
+               <a href="#about-me"> About me </a>
             </li>
             <li>
-                Education
+                <a href="#skills">Skills </a>
             </li>
             <li>
-                Experience
+               <a href="#education">Education</a>
             </li>
             <li>
-                Skills
+              <a href="#experience">Experience</a>
+            </li>
+            <li>
+               <a href="#code-example">  Code example </a>
+            </li>
+            <li >
+                <a href="#courses">  Courses </a>
+            </li>
+            <li>
+                <a href="#languages"> Languages </a>
+            </li>
+            <li>
+                <a href="#contacts">  Code example </a>
+            </li>
+            <li>
+                <a href="#projects">  Projects </a>
             </li>
         </ul>
     </nav>
     <div class="container mx-auto">
         <header class="my-10 flex items-center py-5 justify-around">
-            <img class="rounded-full max-w-[20%]" src="/images/lizaveta-photo.jpg" alt="Lizaveta's photo">
-            <div class="">
+            <img class="rounded-full max-w-[20%]" src="/assets/lizaveta-photo.jpg" alt="Lizaveta's photo">
+            <div>
                 <h1 class="text-2xl">
                     LIZAVETA YALAK
                 </h1>
@@ -37,10 +52,10 @@
         </header>
         <hr/>
         <main class="grid grid-cols-2 gap-10 py-8">
-            <div>
-                <div class="text-xl">
+            <div id="contacts">
+                <h2 class="text-xl">
                     Contacts
-                </div>
+                </h2>
                 <ul class="mt-2">
                     <li>
                         Location - Gdansk, Poland
@@ -54,12 +69,16 @@
                     <li>
                         LinkedIn - <a href="https://www.linkedin.com/in/lizaveta-yalak-a635b71ba/" target="_blank">https://www.linkedin.com/in/lizaveta-yalak-a635b71ba/</a>
                     </li>
+                    <li>
+                        Discord -  primaaaveeera
+                    </li>
+                    <li> GitHub - <a href="https://github.com/primavera10">primavera10</a> </li>
                 </ul>
             </div>
-            <div>
-                <div class="text-xl">
+            <div id="about-me">
+                <h2 class="text-xl">
                     About me
-                </div>
+                </h2>
                 <div class="mt-2">
                     Frontend software developer, primarily working with Vue.js 3(and also Vue.js 2) with good
                     understanding of design principles and digital assets for frontend development. I am creative,
@@ -68,10 +87,10 @@
             </div>
             <hr/>
             <hr/>
-            <div>
-                <div class="text-xl">
+            <div id="skills">
+                <h2 class="text-xl">
                     Skills
-                </div>
+                </h2>
                 <div class="flex gap-12 ">
                     <div class="mt-3 text-lg">
                         Development tools
@@ -133,10 +152,12 @@
                     </div>
                 </div>
             </div>
-            <div class="text-xl">
-                Code example
-                <pre>
-                <code class="text-sm">
+            <div id="code-example" class="text-xl">
+                <h2 class="pb-4">
+                    Code example
+                </h2>
+                <pre class="bg-grey">
+                    <code class="text-sm">
                     function secondSymbol(s, symbol) {
                         let counter = 0;
                         for (let i = 0; i< s.length; i++){
@@ -151,11 +172,150 @@
                         }
                         return -1;
                     }
-                </code>
+                    </code>
             </pre>
+            </div>
+            <hr/>
+            <hr/>
+            <div>
+                <h2 class="text-xl" id="education">
+                    Education
+                </h2>
+                <div class="text-lg mt-2 font-medium">
+                    BELARUSIAN STATE UNIVERSITY, Bachelor of International Law (2018 - 2022)
+                </div>
+                <ul class="mt-2 list-disc">
+                    <li>
+                        Relevant coursework - “The history of deprecation of the Death Penalty in France and Russian
+                        Federation & how it may influence on Belarus”, “The immunity of international organizations”
+                    </li>
+                    <li>
+                        Diploma based on the topic “International legal regulation of circulation of military products”
+                    </li>
+                    <li>
+                        The educational process contained 2 languages : 1st language - French, 2nd - English
+                    </li>
+                    <li>
+                        Was the member of the presidium of “ELSA Belarus”
+                    </li>
+                </ul>
+            </div>
+            <div id="experience">
+                <h2 class="text-xl">
+                    Experience
+                </h2>
+                <div>
+                    <div class="text-lg mt-3">
+                        <b>MaxiCasino</b>, 2020-2022
+                    </div>
+                    <div class="mt-2">
+                        UX/UI Designer, Content Manager
+                    </div>
+                    <div class="mt-2">
+                        A news and promotional portal about gambling and betting, which collaborates with leading online
+                        casinos to bring exclusive bonuses, promotions, and offers to its readers.
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <div class="text-lg">
+                        <b>Flatlogic</b>, 2022-2023
+                    </div>
+                    <div class="mt-2">
+                        Frontend Vue.js developer
+                    </div>
+                    <div class="mt-2">
+                        Worked as a Frontend developer at a product and outsource software development company. The
+                        company collaborates with startups and enterprises to transform their ideas into fully
+                        functional and scalable software products, also offering comprehensive post-development
+                        services, including software maintenance and ongoing support.
+                    </div>
+                </div>
+            </div>
+            <hr/>
+            <hr/>
+            <div id="courses">
+                <h2 class="text-xl">
+                    Courses
+                </h2>
+                <ul class="mt-2 list-disc">
+                    <li>
+                        UXMind Design School (2019-2020), UX/UI Design
+                    </li>
+                    <li>
+                        CIDR Design School, Graphic Design
+                    </li>
+                    <li>
+                        FreeCodeCamp HTML & CSS Basics
+                    </li>
+                    <li>
+                        LearnJavaScript.ru basic JS course
+                    </li>
+                    <li>
+                        JavaScript Ninja Ilya Klimov's Vue.js course
+                    </li>
+                    <li>
+                        RSS Node.js course
+                    </li>
+                    <li>
+                        Codewars 5 kyu
+                    </li>
+                </ul>
+            </div>
+            <div id="languages">
+                <div class="text-xl">
+                    Languages
+                </div>
+                <ul class="mt-2 list-disc">
+                    <li>
+                        English C1
+                    </li>
+                    <li>
+                        French B1
+                    </li>
+                    <li>
+                        Polish A2
+                    </li>
+                    <li>
+                        Russian Native
+                    </li>
+                    <li>
+                        Belarusian Native
+                    </li>
+                </ul>
+            </div>
+            <hr/>
+            <hr/>
+            <div id="projects">
+                <div class="text-xl">
+                    Projects
+                </div>
+                <ul class="mt-2 list-disc">
+                    <li>
+                        <a href="https://github.com/primavera10/where-to-travel" target="_blank"> Where to travel </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/primavera10/super-homework" target="_blank"> Super homework </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/primavera10/Cryptonomicon" target="_blank">Cryptonomicon</a>
+                    </li>
+                </ul>
             </div>
         </main>
     </div>
+    <footer class="bg-primary flex items-center justify-between text-text-white px-12">
+        <div class="flex gap-3 items-center">
+            <a class="p-2 block flex items-center" href="https://github.com/primavera10" target="_blank">
+                <img src="/assets/github.svg" alt="my-git-hub">
+            </a>
+            <div> 2023 </div>
+        </div>
+        <div>
+            <a class="block p-2 flex items-center" href="https://rs.school/js/" target="_blank">
+                <img src="/assets/rss.svg" alt="rss-js-course" class="w-16 h-16">
+            </a>
+        </div>
+    </footer>
 </div>
 
 </body>

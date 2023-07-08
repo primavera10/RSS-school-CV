@@ -17,6 +17,7 @@ module.exports = {
       primary : '#06b6d4',
       text: '#1f2937',
       'text-white' : '#fafafa',
+      grey: '#e5e7eb'
     },
     fontFamily: {
       sans: ['Roboto Condensed']
