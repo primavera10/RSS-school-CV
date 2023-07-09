@@ -31,7 +31,6 @@
 - Firebase
 - TailwindCSS
 - Vite
-- TypeScript
 - HTML
 - Git
 
